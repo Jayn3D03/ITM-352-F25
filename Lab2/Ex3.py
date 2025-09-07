@@ -6,6 +6,8 @@
 value_entered = input("Please enter an floating point number between 1 and 100: ")
 print("The user entered", value_entered)
 value_as_float = float(value_entered)
+#converts the input to a float
 
 value_squared = value_as_float**2
 print(f"The value squared is , {value_squared}")
+#squares the value and prints it out
