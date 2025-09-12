@@ -23,3 +23,4 @@ def maximum(a, b):
 # function to find the minimum of two numbers
 def minimum(a, b):
     return a if a < b else b
+
