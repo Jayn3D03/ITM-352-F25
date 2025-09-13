@@ -24,3 +24,6 @@ def maximum(a, b):
 def minimum(a, b):
     return a if a < b else b
 
+def apply_function(a, b, func):
+    return f"The function {func.__name__} {a}, {b} = {func(a, b)}"
+
