@@ -2,7 +2,6 @@
 # name: chloecornforth
 # date: 9/12/2025
 
-#import HandyMath as HM
 import HandyMath
 
 number1 = float(input("Enter the first number: "))
