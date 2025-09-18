@@ -9,6 +9,6 @@
 #respondent_ids = (1012, 1035, 1021, 1053)
 #response_values.append(respondent_ids)
 
-response_values = [(1012, 5), (7, 1034), (1021, 3), (8, 1053)]
+response_values = [(1012, 5), (1035, 7), (1021, 3), (1053, 8)]
 response_values.sort()
 print ("Combined response value with IDs:", response_values)

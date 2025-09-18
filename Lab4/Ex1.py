@@ -11,3 +11,5 @@ print(f"Your full name is: {first} {middle_initial}. {last}")
 print("Your full name is %s %s %s" % (first, middle_initial, last))
 print("Your full name is: {} {}. {}".format(first, middle_initial, last))   
 print("Your full name tuple version is: " + " ".join([first, middle_initial + ".", last]))
+name_list = [first, middle_initial + ".", last]
+print("Your full name is: {} {} {}".format(*name_list))
