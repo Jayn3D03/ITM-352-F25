@@ -66,6 +66,7 @@ for num, (question, info) in enumerate(questions, 1):
 # writes out final score
 print(f"\nYou got {number_correct} out of {len(questions)} questions correct.")
 
+# save score history to a json file
 import json
 import os
 

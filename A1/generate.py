@@ -1,7 +1,7 @@
-def generate_numbers(a_student_id, num_reqs):
+def generate_numbers(a_student_id, num_reqs=10):
    # Check that there are at least two requirements available to assign
    if num_reqs < 2:
-       raise ValueError("Invalid number of requirements. Must have at  least 2")
+       raise ValueError("Invalid number of requirements. Must have at least 2")
    # Remove any dashes or spaces from the student_id
    id = ''.join(filter(str.isdigit, a_student_id))
   
